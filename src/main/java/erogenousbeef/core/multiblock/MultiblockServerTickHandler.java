@@ -16,7 +16,7 @@ public class MultiblockServerTickHandler {
 
     @SubscribeEvent
     public void onWorldTick(TickEvent.WorldTickEvent event) {
-        if(event.phase == TickEvent.Phase.START) {
+        if (event.phase == TickEvent.Phase.START) {
             MultiblockRegistry.tickStart(event.world);
         }
     }
